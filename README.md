@@ -1,22 +1,11 @@
-# Apple Engineering Playbook (Agent Skill)
+# Swift & SwiftUI Agent Skills for Modern Apple Development
 
-The Source of Truth for modern Apple development — iOS 18.4+, Swift 6.2, and Liquid Glass adoption.
+A collection of expert AI skills for **Swift**, **SwiftUI**, **iOS 18+**, **SwiftData**, **StoreKit**, **Liquid Glass**, and modern Apple platform development.
+
+The Source of Truth for modern Apple development — iOS 18+, Swift 6, and Liquid Glass adoption.
 This skill is based on "secret" Apple markdown documentation found within Xcode's AI assistant resources (e.g., `/Xcode.app/Contents/PlugIns/IDEIntelligenceChat.framework/Versions/A/Resources/AdditionalDocumentation`), which details new features and is used by Xcode Intelligence.
 
-This repository contains an expert-level AI Skill based on Apple’s internal implementation standards and AI-first documentation. It equips your AI coding agents (Claude Code, Gemini CLI, Cursor) with the most current patterns for adopting Liquid Glass design, Swift 6.2 language features, and Apple Intelligence frameworks.
-
-⸻
-
-## 🎯 Who This Is For
-
-👨‍💻 **Senior iOS / macOS Engineers**
-Engineers who need to implement features using the very latest APIs — often before they are widely documented online.
-
-🎨 **UI / UX Specialists**
-Designers and engineers adopting the Liquid Glass system across iOS, macOS, and visionOS.
-
-⚡ **Performance Engineers**
-Developers focused on low-level efficiency using new Swift types like InlineArray and Span.
+This repository contains an expert-level AI Skill based on Apple’s internal implementation standards and AI-first documentation. It equips your AI coding agents (Claude Code, Gemini CLI, Cursor) with the most current patterns for adopting Liquid Glass design, Swift 6 language features, and Apple Intelligence frameworks.
 
 ⸻
 
@@ -49,7 +38,7 @@ skilz install https://github.com/v-murygin/apple-skills --agent gemini  # For Ge
 If you are actively adding or editing internal docs inside the `references/` folder and want instant updates (e.g., for local development of the skill):
 
 ```bash
-skilz install --file ~/path/to/apple-engineering-playbook --agent claude --symlink
+skilz install --file ~/path/to/apple-skills --agent claude --symlink
 # This creates a symlink, so changes in your local repo are immediately reflected.
 ```
 
@@ -78,7 +67,7 @@ skilz install --file ~/path/to/apple-engineering-playbook --agent claude --symli
 ## 🧩 Skill Structure
 
 ```
-apple-engineering-playbook/
+apple-skills/
 ├── SKILL.md                 # Main orchestration logic and decision tree
 └── references/              # The "Source of Truth" markdown files
     ├── AppIntents-Updates.md
