@@ -29,10 +29,10 @@ Using Skilz (Recommended)
 Install this skill globally for your coding assistants:
 
 # Для Claude Code
-skilz install https://github.com/vlad/apple-engineering-playbook --agent claude
+skilz install https://github.com/v-murygin/apple-skills --agent claude
 
 # Для Gemini CLI
-skilz install https://github.com/vlad/apple-engineering-playbook --agent gemini
+skilz install https://github.com/v-murygin/apple-skills --agent gemini
 
 Manual Development (Symlink)
 
