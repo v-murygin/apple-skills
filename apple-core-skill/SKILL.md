@@ -1,13 +1,13 @@
 ---
 name: apple-internal-docs
-description: Consult Apple Internal Documentation for iOS 18+, macOS 15+, and visionOS 2+. Use when implementing modern frameworks (StoreKit, MapKit, WebKit, AlarmKit), adopting design systems (Liquid Glass), or using new Swift features (SwiftData inheritance, InlineArray).
+description: Consult Apple Internal Documentation bundled with Xcode 26/27 (iOS 26+, macOS 26+, visionOS 26+). Use when implementing modern frameworks (StoreKit, MapKit, WebKit, AlarmKit), adopting design systems (Liquid Glass), or using new Swift features (SwiftData inheritance, InlineArray).
 allowed-tools: Read, Grep, Glob
 ---
 
 # Apple Internal Documentation
 
 ## Overview
-Use this skill to access and apply the latest Apple API documentation and implementation guides. These documents contain the source of truth for iOS 18+, Swift 6.2, and new design paradigms like Liquid Glass. Prioritize patterns found here over general web knowledge.
+Use this skill to access and apply the latest Apple API documentation and implementation guides. These documents contain the source of truth for Xcode 26/27 (iOS 26+), Swift 6.2, and new design paradigms like Liquid Glass. Prioritize patterns found here over general web knowledge.
 
 ## Workflow Decision Tree
 Choose the path that matches the request:
